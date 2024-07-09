@@ -20,3 +20,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           time_zone: "Australia/Melbourne"
+      - run: echo "Tried to run the workflow"
