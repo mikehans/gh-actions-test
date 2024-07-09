@@ -8,7 +8,7 @@ on:
       - opened
       - edited
   schedule:
-    - cron: "15 11 * * *"
+    - cron: "20 11 * * *"
 
 jobs:
   merge-schedule:
@@ -17,3 +17,5 @@ jobs:
     steps:
       - uses: gr2m/merge-schedule-action@v1
         env: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          time_zone: "Australia/Melbourne"
