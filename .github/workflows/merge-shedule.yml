@@ -8,7 +8,7 @@ on:
       - opened
       - edited
   schedule:
-    - cron: "20 11 * * *"
+    - cron: '20 23 * * *'
 
 jobs:
   merge-schedule:
