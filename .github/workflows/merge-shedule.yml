@@ -21,7 +21,7 @@ jobs:
         with:
           time_zone: "Australia/Melbourne"
       
-      - uses: SvanBoxtel/delete-merged-branch@main
+      - uses: SvanBoxel/delete-merged-branch@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
